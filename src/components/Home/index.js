@@ -10,13 +10,8 @@ function HomeScreen({navigation}) {
       />
       <Image source={require('../../asset/logo.png')} style={styles.bg2} />
       <Button
-        title="Chat Now"
+        title="Lapor Sekarang"
         onPress={() => navigation.navigate('Chat')}
-        style={styles.bgbutton}
-      />
-      <Button
-        title="tES"
-        onPress={() => navigation.navigate('Web')}
         style={styles.bgbutton}
       />
     </View>
